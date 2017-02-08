@@ -1,3 +1,4 @@
-# My Awesome Book
+# Mac折腾手记——记录Mac的折腾历程
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+生命不息，折腾不止。
+
