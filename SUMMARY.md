@@ -8,7 +8,13 @@
 * tree
 * pyenv
 * zsh最强shell
-* init系统设置
+* [init系统设置](init.md)
 * QuickLook预览扩展
 * [skill小技巧](skill.md)
+* git
+* GitHub
+* GitBook
+* coding
+* OSChina
+* GitLab
 
