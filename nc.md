@@ -47,4 +47,38 @@
 wget
 远程访问
 
-下载
+# scp
+> 远程拷贝文件,scp -r 的常用方法：
+
+1.使用该命令的前提条件要求目标主机已经成功安装openssh-server
+
+如没有安装使用 sudo apt-get install openssh-server 来安装
+2.使用格式：
+
+scp -r 目标用户名@目标主机IP地址：/目标文件的绝对路径  /保存到本机的绝对/相对路径
+
+举例：
+scp -r itcast@192.168.1.100:/home/itcast/QQ_dir/ ./mytest/lisi
+
+在后续会提示输入“yes”此时，只能输“yes”而不能简单输入“Y”
+拷贝单个文件可以不加 -r参数，拷贝目录必须要加。
+
+本地文件复制到远程：
+
+scp FileName RemoteUserName@RemoteHostIp:RemoteFile
+scp FileName RemoteHostIp:RemoteFolder
+scp FileName RemoteHostIp:RemoteFile
+本地目录复制到远程：
+
+scp -r FolderName RemoteUserName@RemoteHostIp:RemoteFolder
+scp -r FolderName RemoteHostIp:RemoteFolder
+远程文件复制到本地：
+
+scp RemoteUserName@RemoteHostIp:RemoteFile FileName
+scp RemoteHostIp:RemoteFolder FileName
+scp RemoteHostIp:RemoteFile FileName
+远程目录复制到本地：
+
+scp -r RemoteUserName@RemoteHostIp:RemoteFolder FolderName
+scp -r RemoteHostIp:RemoteFolder FolderName
+
