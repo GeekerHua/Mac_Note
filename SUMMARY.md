@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [BasicSetting](basicsetting.md)
 * [Homebrew与brewCask](homebrewbrewcask.md)
 * you-get视频下载
 * autojump路径跳转
