@@ -18,7 +18,7 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 ```
 
 > Homebrew下载的package存放的路径在哪里？
-- `/Library/Caches/Homebrew/`
+- `~/Library/Caches/Homebrew/`
 
 #### 常用命令
 - 安装package
