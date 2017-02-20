@@ -9,10 +9,9 @@
 * [you-get视频下载](you-get.md)
 * [autojump路径跳转](autojump.md)
 * [nc](nc.md)
-* [wget下载器](wget.md)
-* GitHub
-* GitBook
-* coding
-* OSChina
-* GitLab
+* [GitHub](github.md)
+* [GitBook](gitbook.md)
+* [coding](coding.md)
+* [OSChina](oschina.md)
+* [GitLab](gitlab.md)
 
