@@ -48,12 +48,15 @@ gitbook.com[官方的介绍](https://help.gitbook.com/github/can-i-host-on-githu
 1. 在github中创建一个需要同步的代码仓库，为便于识别最好使用同名仓库。
 2. 在gitbook的项目setting界面点击左侧的GitHub。
     ![](/assets/QQ20170209-125320.jpg)
-3. 右侧提示链接GitHub，并在GitHub中安装GitBook的插件。安装好后，在这个界面应该能看到这样的显示。
+3. 右侧提示链接GitHub，并在GitHub中安装GitBook的插件。
+4. 在GitHub中设置需要授权访问的仓库。
+    ![](/assets/QQ20170221-142324.jpg)
+5. 安装好后，在gitbook的设置界面应该能看到这样的显示。
 ![](/assets/Sync-GitHub.jpg)
-4. 点击`Select a Repository`选择需要关联到那个GitHub仓库。
-5. 如果两个仓库代码不一致，会有如下提示，想以哪一个网站为准，就点击那个logo。第一次同步肯定点左边的GitBook啦。然后就同步完成了。
+6. 点击`Select a Repository`选择需要关联到那个GitHub仓库。
+7. 如果两个仓库代码不一致，会有如下提示，想以哪一个网站为准，就点击那个logo。第一次同步肯定点左边的GitBook啦。然后就同步完成了。
 ![](/assets/QQ20170209-125338.jpg)
-6. 到此，与GitHub的关联结束，以后就两个平台数据同步更新了。
+8. 到此，与GitHub的关联结束，以后就两个平台数据同步更新了。
 
 > 其它：GitBook有个官方的编辑器，能够友好的组织、编辑和预览电子书。GitBook Editor。
 最新版本已经升级到7.0.0+，但该版本必须联网才能使用。建议安装6.6.2的版本，可以离线编辑，并同步到GitBook官网。
