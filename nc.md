@@ -1,5 +1,5 @@
 # nc——netcat
-- server: nc -l `part` < `document`
+- server: nc -l `port` < `document`
 - client: nc -n `ip` `port` > `document`
 
 ## 用nc聊天
