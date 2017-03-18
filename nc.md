@@ -3,8 +3,8 @@
 - client: nc -n `ip` `port` > `document`
 
 ## 用nc聊天
-- server: nc -l `ip`
-- nc `ip` `port`
+- server: nc -l 10000
+- nc `ip` 10000
 
 ---
 
